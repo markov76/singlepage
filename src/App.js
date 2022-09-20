@@ -11,6 +11,7 @@ import Header from './components/Header'
 function App() {
   return (
     <>
+      <Header />
       <Navbar />
       <div className='container'>
         <Routes>
@@ -19,6 +20,7 @@ function App() {
           <Route path="*" element={<NotFound />} />
         </Routes> 
       </div>
+      <Footer />
     </>
   );
 }
